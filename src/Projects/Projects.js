@@ -15,7 +15,7 @@ const projectsRaw = [
   },
   {
     title: 'Table Booking Application',
-    desc: 'Scalable table booking web application for bars/pubs using Docker for easy server deployment and expandability.',
+    desc: 'Scalable table booking web application for bars/pubs using Docker containers for instant server deployment.',
     tech: ['JavaScript', 'Docker', 'MySQL'],
     git: 'https://github.com/AdamGPrice/Table-Booking-Application',
   },
