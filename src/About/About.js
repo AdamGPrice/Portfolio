@@ -1,4 +1,9 @@
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+
+import './About.css';
 
 function About() {
   return (
@@ -10,7 +15,8 @@ function About() {
           </p>
         <p>
           My main interests include problem solving, mathematics, machine learning and web development.
-          I have experience with various programmming languages and technologies from embedded systems to distributed web applications.
+          I have experience with various programmming languages and technologies from working on a range of projects 
+          from embedded systems to distributed web applications.
         </p>
 
         <p>Check out my <Link  to='/projects'>Projects</Link> page to 
@@ -20,7 +26,19 @@ function About() {
         <p>
           Feel free to reach out if you want a to build something together, have a question, or just want to connect.
         </p>
-        <p>&lt;SOCIAL LINKS HERE&gt;</p>
+        <p><a href="mailto:adamprice.dev@gmail.com" target="_blank" rel="noreferrer">adamprice.dev@gmail.com</a></p>
+        <p>
+          <a 
+            href="https://github.com/AdamGPrice" 
+            target="_blank" rel="noreferrer">
+              <FontAwesomeIcon className="social-link" icon={faGithub} />
+          </a>
+          <a 
+            href="https://www.linkedin.com/in/adamgprice" 
+            target="_blank" rel="noreferrer">
+              <FontAwesomeIcon className="social-link" icon={faLinkedinIn} />
+          </a>
+        </p>
       </div>
     </div>
   );

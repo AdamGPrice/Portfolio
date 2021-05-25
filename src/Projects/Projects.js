@@ -28,7 +28,7 @@ const projectsRaw = [
   {
     title: 'Generative Adverserial Network Project',
     desc: 'A project which evaluates the performance of GANs with and without transfer learning.',
-    tech: ['Python', 'Machine Learning'],
+    tech: ['Python', 'Tensorflow'],
     git: 'https://github.com/AdamGPrice/Generative-Adversarial-Network',
   },
 ]
@@ -47,7 +47,7 @@ function Projects() {
     <div className="row">
       <div className="col s12">
         <h2>Projects</h2>
-        <p>Here are some cool projects I have worked on! A mix of uni and personal projects.</p>
+        <p>Here are some cool projects I have worked on! A mix of university and personal projects.</p>
         <div className="row">
           {projects}
         </div>

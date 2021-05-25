@@ -26,11 +26,9 @@ a:hover {
 body {
   margin: 0;
   font-family: "poppins", helvetica, arial;
+  font-family: 'Roboto Slab', serif;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
