@@ -1,14 +1,16 @@
 import './NavBar.css';
 import { Link, useLocation } from 'react-router-dom';
 
-function NavBar() {
+function NavBar(props) {
   const location = useLocation().pathname;
-  //console.log(location);
 
   return (
     <div className="row">
       <div className="col s12 m4">
-        <h1 className="name">Adam Price</h1>
+        <h1 
+          className="name"
+          onClick={() => props.incrementRickRoll()}
+        >Adam Price</h1>
         <p className="sub-heading name-title">Software Developer</p>
         <div className="nav-btns-mobile left">
           <Link className="link" to='/'>

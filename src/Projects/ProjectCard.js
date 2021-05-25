@@ -32,7 +32,7 @@ class ProjectCard extends React.Component {
         className="projectcard-box col s12 m6 l4">
         <div className="projectcard-innerbox">
           <p className="sub-heading">{this.props.value.title}</p>
-          <i class="material-icons open-icon">open_in_new</i>
+          <i className="material-icons open-icon">open_in_new</i>
           <p>{this.props.value.desc}</p>
         </div>
           {techbadges}

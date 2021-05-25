@@ -2,15 +2,15 @@ import ProjectCard from './ProjectCard';
 
 const projectsRaw = [
   {
-    title: 'Software Renderer',
-    desc: 'A 3D Software renderer demo built in C++ without the use of modern graphic APIs.',
+    title: 'Software Graphics Renderer',
+    desc: 'A 3D Software renderer built in C++ from the ground up without the use of modern graphic APIs.',
     tech: ['C', 'C++'],
     git: 'https://github.com/AdamGPrice/Software-Graphics-Renderer',
   },
   {
     title: 'x86 Bootloader',
-    desc: 'Drawing primitives in x86 assembly',
-    tech: ['Assembly', 'C'],
+    desc: 'Bootloader written in x86 Assembly with some functionality to draw primitives to the screen.',
+    tech: ['Assembly'],
     git: 'https://github.com/AdamGPrice/x86-Graphics',
   },
   {
@@ -20,14 +20,14 @@ const projectsRaw = [
     git: 'https://github.com/AdamGPrice/Table-Booking-Application',
   },
   {
-    title: 'Interpreter Language',
-    desc: 'SIMP, a simple interpreter language language built with JavaCC.',
+    title: 'Interpreter Language, SIMP',
+    desc: 'SIMP is a simple interpreter language language built with JavaCC.',
     tech: ['Java'],
     git: 'https://github.com/AdamGPrice/SIMP-Language-Interpreter',
   },
   {
     title: 'Generative Adverserial Network Project',
-    desc: 'A project which evaluates the performance of GANs with and without transfer learning.',
+    desc: 'A project which evaluates the performance of GANs with and without the aid transfer learning.',
     tech: ['Python', 'Tensorflow'],
     git: 'https://github.com/AdamGPrice/Generative-Adversarial-Network',
   },

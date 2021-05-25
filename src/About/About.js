@@ -15,7 +15,7 @@ function About() {
           </p>
         <p>
           My main interests include problem solving, mathematics, machine learning and web development.
-          I have experience with various programmming languages and technologies from working on a range of projects 
+          I have experience with various programming languages and technologies from working on a range of projects 
           from embedded systems to distributed web applications.
         </p>
 
