@@ -21,7 +21,7 @@ const projectsRaw = [
   },
   {
     title: 'Interpreter Language, SIMP',
-    desc: 'SIMP is a simple interpreter language language built with JavaCC.',
+    desc: 'SIMP is a simple interpreter language built with JavaCC.',
     tech: ['Java'],
     git: 'https://github.com/AdamGPrice/SIMP-Language-Interpreter',
   },
