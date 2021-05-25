@@ -14,7 +14,7 @@ function About() {
         </p>
 
         <p>Check out my <Link  to='/projects'>Projects</Link> page to 
-        find out about previous projects i have worked on and what I am working on next.</p>
+        find out about previous projects I have worked on and what I am working on next.</p>
 
         <h2>Contact</h2>
         <p>

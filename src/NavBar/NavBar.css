@@ -53,8 +53,12 @@
 
 .custom-btn:hover {
   color: rgb(162, 162, 162) !important;
-
+  
   border-bottom: 2px solid rgb(214, 197, 45);
+}
+
+.link:hover {
+  text-decoration: none !important;
 }
 
 .custom-btn-selected:hover {
