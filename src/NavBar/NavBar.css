@@ -1,0 +1,88 @@
+.name {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.name-title {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.nav-btns {
+  margin-top: 50px;
+}
+
+.nav-btns-mobile {
+  margin-top: 10px;
+  display: none;
+}
+
+.nav-btns-mobile .custom-btn {
+  margin-top: 5px;
+  display: block;
+}
+
+.nav-btns-mobile .custom-btn-selected {
+  display: block;
+  margin-top: 5px;
+}
+
+.custom-btn-selected {
+  display: inline;
+  
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 20px;
+  color: rgb(0, 143, 17);
+  color: rgb(243, 243, 243);
+  border-bottom: 2px solid rgb(214, 197, 45);
+}
+
+.custom-btn {
+  display: inline;
+  
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 20px;
+  color: rgb(112, 113, 114);
+}
+
+.custom-btn:hover {
+  color: rgb(162, 162, 162) !important;
+
+  border-bottom: 2px solid rgb(214, 197, 45);
+}
+
+.custom-btn-selected:hover {
+  border-bottom: 2px solid rgb(214, 197, 45);
+}
+
+
+.custom-btn:hover {
+  color: #000;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+@media screen and (max-device-width: 800px) {
+  
+}
+
+
+/* Write code here for hamburger menu and shit */
+@media(max-width: 600px) {
+  .nav-btns {
+    display: none;
+  }
+  
+  .nav-btns-mobile {
+    display: block;
+  }
+}
