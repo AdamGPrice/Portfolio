@@ -1,8 +1,9 @@
 import NavBar from './NavBar/NavBar';
 import About from './About/About';
 import Projects from './Projects/Projects';
+import NotFound from './NotFound';
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 
 class App extends React.Component {
@@ -24,8 +25,11 @@ class App extends React.Component {
         <NavBar
           incrementRickRoll={(value) => this.incrementRickRoll(value)}
         />
-        <Route exact path='/' component={About}/>
-        <Route exact path='/projects' component={Projects}/>
+        <Switch>
+          <Route exact path='/' component={About}/>
+          <Route exact path='/projects' component={Projects}/>
+          <Route exact path='*' component={NotFound}/>
+        </Switch>
       </div>
     );
   }

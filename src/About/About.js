@@ -26,7 +26,7 @@ function About() {
         <p>
           Feel free to reach out if you want a to build something together, have a question, or just want to connect.
         </p>
-        <p><a href="mailto:adamprice.dev@gmail.com" target="_blank" rel="noreferrer">adamprice.dev@gmail.com</a></p>
+        <p><a href="mailto:adamprice.dev@gmail.com" rel="noreferrer">adamprice.dev@gmail.com</a></p>
         <p>
           <a 
             href="https://github.com/AdamGPrice" 

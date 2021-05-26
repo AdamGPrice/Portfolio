@@ -11,7 +11,7 @@ function NavBar(props) {
           className="name"
           onClick={() => props.incrementRickRoll()}
         >Adam Price</h1>
-        <p className="sub-heading name-title">Software Developer</p>
+        <p className="sub-heading name-title">Software Engineer</p>
         <div className="nav-btns-mobile left">
           <Link className="link" to='/'>
             <div 

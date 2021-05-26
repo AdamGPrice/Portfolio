@@ -27,7 +27,7 @@ const projectsRaw = [
   },
   {
     title: 'Generative Adverserial Network Project',
-    desc: 'A project which evaluates the performance of GANs with and without the aid transfer learning.',
+    desc: 'A project which evaluates the performance of GANs with and without the aid of transfer learning.',
     tech: ['Python', 'Tensorflow'],
     git: 'https://github.com/AdamGPrice/Generative-Adversarial-Network',
   },
