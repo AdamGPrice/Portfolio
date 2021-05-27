@@ -5,7 +5,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 import './About.css';
 
-function About() {
+const About = () => {
   return (
     <div className="row">
       <div className="col s12 m8">

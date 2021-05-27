@@ -33,7 +33,7 @@ const projectsRaw = [
   },
 ]
 
-function Projects() {
+const Projects = () => {
   const projects = projectsRaw.map((value, index) => {
     return(
       <ProjectCard 

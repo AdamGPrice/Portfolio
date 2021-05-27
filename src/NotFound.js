@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function NotFound() {
+const NotFound = () => {
   return (
     <div className="row">
       <div className="col s12 m8">
