@@ -29,6 +29,9 @@ const simple = [
     tech: ['Python', 'Tensorflow'],
     git: 'https://github.com/AdamGPrice/Generative-Adversarial-Network',
   },
+]
+
+const ඞ = [
   {
     title: 'Critter World',
     desc: 'A game in first year of uni that provided me with a good understading of C# and Object Oriented Programming',
