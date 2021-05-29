@@ -31,15 +31,6 @@ const simple = [
   },
 ]
 
-const ඞ = [
-  {
-    title: 'Critter World',
-    desc: 'A game in first year of uni that provided me with a good understading of C# and Object Oriented Programming',
-    tech: ['C#'],
-    git: '#',
-  },
-]
-
 const projects = { simple };
 
 export default projects;
