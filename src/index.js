@@ -15,17 +15,21 @@ const supabase = createClient(supabaseUrl, SUPABASE_KEY);
 console.log('You shouldn\'t be looking here 🤓');
 console.log('Check out this hilarious video.', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 
-axios.get('https://api.db-ip.com/v2/free/self')
-.then((response) => {
-  if (response.data.ipAddress !== '80.3.253.213') {
-    supabase
-      .from('Visitors')
-      .insert([
-        { info: response.data },
-      ])
-      .then(() => {});
-  }
-}).catch(() => {});
+if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+  console.log('Development Build');
+} else {
+  axios.get('https://api.db-ip.com/v2/free/self')
+    .then((response) => {
+      if (response.data.ipAddress !== '80.3.253.213') {
+        supabase
+          .from('Visitors')
+          .insert([
+            { info: response.data },
+          ])
+          .then(() => {});
+      }
+    }).catch(() => {});
+}
 
 ReactDOM.render(
   <BrowserRouter>
