@@ -1,10 +1,26 @@
-const simple = [
+const showcase = [
   {
     title: 'Software Graphics Renderer',
     desc: 'A 3D Software renderer built in C++ from the ground up without the use of modern graphic APIs.',
+    shortdesc: '3D Renderer built from the ground up.',
     tech: ['C', 'C++'],
+    techlong: ['C', 'C++', 'Renderer', 'Rasteriser'],
     git: 'https://github.com/AdamGPrice/Software-Graphics-Renderer',
+    dir: '/software-renderer',
+    body: 'SoftwareRenderer',
   },
+  {
+    title: 'Generative Adversarial Network Evaluation',
+    desc: 'Evaluating the performance of GANs with and without the aid of transfer learning.',
+    shortdesc: 'Evaluating the performance of GANs.',
+    tech: ['Python', 'Machine Learning'],
+    techlong: ['Python', 'Tensorflow', 'Machine Learning', 'Image Synthesis'],
+    git: 'https://github.com/AdamGPrice/Generative-Adversarial-Network',
+    dir: '/generative-adversarial-networks',
+  },
+]
+
+const simple = [
   {
     title: 'x86 Bootloader',
     desc: 'Bootloader written in x86 Assembly with some functionality to draw primitives to the screen.',
@@ -23,14 +39,8 @@ const simple = [
     tech: ['Java'],
     git: 'https://github.com/AdamGPrice/SIMP-Language-Interpreter',
   },
-  {
-    title: 'Generative Adverserial Networks',
-    desc: 'A project which evaluates the performance of GANs with and without the aid of transfer learning.',
-    tech: ['Python', 'Tensorflow'],
-    git: 'https://github.com/AdamGPrice/Generative-Adversarial-Network',
-  },
 ]
 
-const projects = { simple };
+const projects = { showcase, simple };
 
 export default projects;

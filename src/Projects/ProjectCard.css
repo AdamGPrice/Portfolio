@@ -20,6 +20,10 @@
   color: rgb(214, 197, 45);
 }
 
+.projectcard-box:hover * { 
+  fill: rgb(214, 197, 45);
+}
+
 .projectcard-innerbox {
   position: relative;
   width: 100%;
@@ -39,10 +43,21 @@
   color: rgb(182, 182, 182);
 }
 
+.showcase-heading {
+  color: rgb(212, 212, 212) !important;
+}
+
 .open-icon {
   position: absolute;
   right: 0px;
   top: 10px;
+}
+
+.github-icon {
+  position: absolute;
+  right: 30px;
+  top: 11px;
+  font-size: 1.4rem;
 }
 
 /* Write code here for hamburger menu and shit */
@@ -54,5 +69,11 @@
     margin-bottom: 20px;
     cursor: pointer;
     border: 1px solid rgb(112, 113, 114); 
+  }
+
+  .github-icon {
+    position: absolute;
+    right: 30px;
+    top: 11.5px;
   }
 }

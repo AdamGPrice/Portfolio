@@ -10,6 +10,7 @@
 #/build
 
 /.vscode
+/testcode
 
 # misc
 .DS_Store
