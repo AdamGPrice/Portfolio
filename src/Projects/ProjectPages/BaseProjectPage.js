@@ -7,6 +7,7 @@ import projects from '../rawInfo';
 
 // Pages
 import SoftwareRenderer from './SoftwareRenderer';
+import Dissertation from './Dissertation';
 
 const getProjectInfo = (location) => {
   const project = projects.showcase.filter((project) => {
@@ -16,12 +17,18 @@ const getProjectInfo = (location) => {
 }
 
 const getProjectBody = (project) => {
-  if (project.body === 'SoftwareRenderer') {
-    return(<SoftwareRenderer/>);
+  let body = <div></div>;
+  switch(project.body) {
+    case 'SoftwareRenderer':
+      body = <SoftwareRenderer/>;
+      break;
+    case 'Dissertation':
+      body = <Dissertation/>;
+      break;
+    default:
+      break;
   }
-  else {
-    return(<div></div>);
-  }
+  return body;
 }
 
 const TechBadge = (props) => {

@@ -4,25 +4,27 @@ const SoftwareRenderer = () => {
   return(
     <div>
       <p>
-        This 3D renderer was created at university for a graphics module. 
-        The renderer can load models that use the 
-        <a href="http://tfc.duke.free.fr/coding/md2-specs-en.html" target="_blank" rel="noreferrer">.MD2</a>
-        (Quake 2 model format) with or without its associated texture and render it to the 
-        screen. This project taught me a lot of the core graphics fundamentals 
-        for programming because I had to write all of the graphics algorithms 
-        myself without the use of modern graphics api's or math libraries. 
-        Starting from the basic matrix math operations transforming 3D objects around 
-        world space to the rasterisation stage where each
-        pixel colour on the screen is set through interpolation.
+        This is a 3D renderer built in C++ from the ground up without the use of modern graphics APIs and GPU hardware acceleration.
+        It's a real-time software renderer so all of the graphics calculation are done on the cpu 
+        and the final result of each frame is displayed on screen using the Win32 GDI to plot pixels.
       </p>
 
       <h3>Example Model (Marvin the Martian)</h3>
       <img src={image} alt="3D Renderer showcase"></img>
 
+      <p>
+        The render can load models which are formatted using <a href="http://tfc.duke.free.fr/coding/md2-specs-en.html" target="_blank" rel="noreferrer">.MD2</a>
+        &nbsp;(Quake 2 model format) with or without the models associated texture and render it to the screen.
+        This project taught me a lot about C++ and the core funamentals of graphics programming
+        because i had to write all of the graphics algorithms myself, Starting with the matrix operations
+        to transform 3D objects around in world space, the lighiting calculation for the model
+        and finally translating the 3D image to the 2D screen with rasterisation to set each pixel colour depending on textures and light sources.
+      </p>
+
       <h3>Renderer Features</h3>
       <ul className="browser-default">
         <li>Wireframe model view</li>
-        <li>object transformations</li>
+        <li>Object transformations</li>
         <ul className="browser-default">
             <li>Translation</li>
             <li>Rotation</li>

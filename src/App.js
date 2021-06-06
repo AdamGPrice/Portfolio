@@ -28,12 +28,15 @@ class App extends React.Component {
     const routes = projects.showcase.map((project, index) => {
       return(
         <Route 
+          exact
           key={project.title + index}
           path={projects.dir}
           component={BaseProjectPage}
         />
       );
     });
+
+    console.log(routes);
 
 
     return (

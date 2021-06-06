@@ -16,7 +16,8 @@ const showcase = [
     tech: ['Python', 'Machine Learning'],
     techlong: ['Python', 'Tensorflow', 'Machine Learning', 'Image Synthesis'],
     git: 'https://github.com/AdamGPrice/Generative-Adversarial-Network',
-    dir: '/generative-adversarial-networks',
+    dir: '/generative-adversarial-networks-evaluation',
+    body: 'Dissertation'
   },
 ]
 

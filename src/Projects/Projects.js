@@ -26,10 +26,11 @@ const Projects = () => {
     <div className="row">
       <div className="col s12">
         <h2>Projects</h2>
-        <p>Here are some cool projects I have worked on! A mix of university and personal projects.</p>
+        <p>Here are some cool projects I have worked on!</p>
         <div className="row">
           {projectsShowcase}
         </div>
+        <br/>
         <h2>More on Github</h2>
         <div className="row">
           {projectsSimple}
