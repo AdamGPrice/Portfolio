@@ -40,6 +40,12 @@ const simple = [
     tech: ['Java'],
     git: 'https://github.com/AdamGPrice/SIMP-Language-Interpreter',
   },
+  {
+    title: 'Extending Xv6 Operating System',
+    desc: 'Adding extra functionality to the Xv6 Operating System through system calls.',
+    tech: ['C', 'Linux', 'OS'],
+    git: 'https://github.com/AdamGPrice/Xv6-Operating-System'
+  }
 ]
 
 const projects = { showcase, simple };
