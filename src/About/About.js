@@ -10,8 +10,9 @@ const About = () => {
     <div className="row">
       <div className="col s12 m8">
         <h2>About Me</h2>
-        <p>Hello, My name is Adam. I'm a Computer Science graduate in Nottingham who studied at
-          the <a href="https://www.derby.ac.uk/" target="_blank" rel="noreferrer">University of Derby</a>.
+        <p>Hello, My name is Adam. I'm a Computer Science graduate 
+          from <a href="https://www.derby.ac.uk/" target="_blank" rel="noreferrer">The University of Derby</a> looking 
+          for a job in software development.
           </p>
         <p>
           My main interests include problem solving, mathematics, machine learning and web development.
