@@ -31,7 +31,7 @@ const simple = [
   {
     title: 'Table Booking Application',
     desc: 'Scalable table booking web application for bars/pubs using Docker containers for instant server deployment.',
-    tech: ['JavaScript', 'Docker', 'MySQL'],
+    tech: ['JS', 'Node', 'Docker', 'MySQL'],
     git: 'https://github.com/AdamGPrice/Table-Booking-Application',
   },
   {
@@ -44,8 +44,14 @@ const simple = [
     title: 'Extending Xv6 Operating System',
     desc: 'Adding extra functionality to the Xv6 Operating System through system calls.',
     tech: ['C', 'Linux', 'OS'],
-    git: 'https://github.com/AdamGPrice/Xv6-Operating-System'
-  }
+    git: 'https://github.com/AdamGPrice/Xv6-Operating-System',
+  },
+  {
+    title: 'JS Neural Network Library',
+    desc: 'Fully connected neural network library built in JavaScript for fun.',
+    tech: ['JS', 'Machine Learning'],
+    git: 'https://github.com/AdamGPrice/JavaScript-Neural-Network',
+  },
 ]
 
 const projects = { showcase, simple };
