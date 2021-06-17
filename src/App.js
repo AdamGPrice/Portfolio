@@ -30,15 +30,12 @@ class App extends React.Component {
         <Route 
           exact
           key={project.title + index}
-          path={projects.dir}
+          path={project.dir}
           component={BaseProjectPage}
         />
       );
     });
-
-    console.log(routes);
-
-
+    
     return (
       <div className="App container">
         <NavBar

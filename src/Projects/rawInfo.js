@@ -29,10 +29,13 @@ const simple = [
     git: 'https://github.com/AdamGPrice/x86-Graphics',
   },
   {
-    title: 'Table Booking Application',
-    desc: 'Scalable table booking web application for bars/pubs using Docker containers for instant server deployment.',
+    title: 'Table Booking App',
+    desc: 'Scalable table booking web application for bars/pubs using Docker containers and kubernetes.',
     tech: ['JS', 'Node', 'Docker', 'MySQL'],
+    techlong: ['JavaScript', 'Node', 'Express', 'Docker', 'Kubernetes', 'MySQL'],
     git: 'https://github.com/AdamGPrice/Table-Booking-Application',
+    dir: '/table-booking-app',
+    body: 'TableBookingApp',
   },
   {
     title: 'Interpreter Language, SIMP',

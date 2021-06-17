@@ -8,6 +8,13 @@ import projects from '../rawInfo';
 // Pages
 import SoftwareRenderer from './SoftwareRenderer';
 import Dissertation from './Dissertation';
+import TableBookingApp from './TableBookingApp';
+
+const components = {
+  SoftwareRenderer,
+  Dissertation,
+  TableBookingApp,
+};
 
 const getProjectInfo = (location) => {
   const project = projects.showcase.filter((project) => {
@@ -17,18 +24,8 @@ const getProjectInfo = (location) => {
 }
 
 const getProjectBody = (project) => {
-  let body = <div></div>;
-  switch(project.body) {
-    case 'SoftwareRenderer':
-      body = <SoftwareRenderer/>;
-      break;
-    case 'Dissertation':
-      body = <Dissertation/>;
-      break;
-    default:
-      break;
-  }
-  return body;
+  const SpecificProject = components[project.body];
+  return <SpecificProject/>;
 }
 
 const TechBadge = (props) => {
@@ -40,7 +37,7 @@ const TechBadge = (props) => {
 const BaseProjectPage = () => {
   const location = useLocation().pathname;
   const project = getProjectInfo(location);
-  console.log(project);
+  //console.log(project);
 
   const techbadges = project.techlong.map((tech, index) => {
     return(
