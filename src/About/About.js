@@ -10,7 +10,8 @@ const About = () => {
     <div className="row">
       <div className="col s12 m8">
         <h2>About Me</h2>
-        <p>Hello, My name is Adam. I'm a Software Developer who studied Computer Science 
+        <p>Hello, my name is Adam. I'm a Software Developer 
+          at <a href="https://www.redboxvoice.com/" target="_blank" rel="noreferrer">RedBox</a> who studied Computer Science 
           at <a href="https://www.derby.ac.uk/" target="_blank" rel="noreferrer">The University of Derby</a>.
           </p>
         <p>
@@ -26,7 +27,7 @@ const About = () => {
         <p>
           Feel free to reach out if you want a to build something together, have a question, or just want to connect.
         </p>
-        <p><a href="mailto:adamprice.dev@gmail.com" rel="noreferrer">adamprice.dev@gmail.com</a></p>
+        <p><a href="mailto:adam.price9616@gmail.com" rel="noreferrer">adam.price9616@gmail.com</a></p>
         <p>
           <a 
             href="https://github.com/AdamGPrice" 
